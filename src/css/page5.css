@@ -1,0 +1,200 @@
+
+/*个人中心*/
+.gerenzhongxin{
+	width: 360px;
+	height: 106px;
+	background: #ff4545;
+	position: relative;
+}
+.gerenzhongxin>.zuojiantou{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 13px;
+	left:11px;
+	/*background: blue;*/
+}
+.gerenzhongxin>.zuojiantou>a>img{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+}
+.gerenzhongxin>.geren{
+	/* width: 51px; */
+	height: 15px;
+	/*background: blue;*/
+	position: absolute;
+    top: 13px;
+    text-align: center;
+	left: 50%;
+	margin-left: -32px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 15px;
+	color: white;
+}
+.gerenzhongxin>.dengluzhuce{
+	width: 125px;
+	height:31px;
+	border: 1px solid white;
+	border-radius: 15px;
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	margin-left: -57px;
+	font-size: 12px;
+	text-align: center;
+	line-height:31px;
+	color: white;
+}
+.gerenzhongxin>.dengluzhuce>a{
+	color: white;
+}
+/*我的订单*/
+.wodedingdan{
+	width: 360px;
+	height: 7px;
+	background: #f6f6f6;
+}
+.wodedingdan>.dd{
+	width: 360px;
+	height: 93px;
+	/*background: red;*/
+}
+.wodedingdan>.dd>.top{
+	width: 360px;
+	height: 38px;
+	background: white;
+}
+.wodedingdan>.dd>.top>p{
+	width: 48px;
+	height:12px;
+	font-size: 12px;
+	line-height: 38px;
+	margin-left: 13px;
+	float: left;
+}
+.wodedingdan>.dd>.top>.xiangzuo{
+	width: 7px;
+	height:11px;
+	background: url(../../static/img/youjiantou.png) center no-repeat;
+	background-size: cover;
+	float: right;
+	margin: 13px 13px 0 0;
+}
+.wodedingdan>.dd>.bottom{
+	width: 360px;
+	height: 54px;
+	margin-top:2px;
+	background: white;
+}
+.wodedingdan>.dd>.bottom>ul>li{
+	float: left;
+	width: 70px;
+	height: 54px;
+	position: relative;
+}
+.wodedingdan>.dd>.bottom>ul>li>.tu{
+	width:17px;
+	height:17px;
+	position: absolute;
+	top:11px;
+	left: 50%;
+	margin-left: -8px;
+}
+.wodedingdan>.dd>.bottom>ul>li>.tu>img{
+	width:17px;
+	height:17px;
+	position: absolute;
+}
+.wodedingdan>.dd>.bottom>ul>li>p{
+	font-size: 11px;
+	text-align: center;
+	margin-top:37px;
+}
+/*购物车*/
+.gwc{
+	width: 360px;
+	height: 80px;
+	background: white;
+	margin-top: 11px;
+}
+.gwc>.top{
+	width: 360px;
+	height: 38px;
+	background: white;
+}
+.gwc>.top>p{
+	width: 48px;
+	height: 12px;
+	font-size: 14px;
+	line-height: 38px;
+	margin-left: 13px;
+	float: left;
+}
+.gwc>.top>.xiangzuo{
+	width: 7px;
+	height:11px;
+	background: url(../../static/img/youjiantou.png) center no-repeat;
+	background-size: cover;
+	float: right;
+	margin: 13px 13px 0 0;
+}
+/*收藏夹*/
+.scj{
+	width: 360px;
+	height: 77px;
+	background: white;
+	margin-top: 11px;
+}
+.scj>.top{
+	width: 360px;
+	height: 38px;
+	background: white;
+}
+.scj>.top>p{
+	width: 48px;
+	height: 14px;
+	font-size: 12px;
+	line-height: 38px;
+	margin-left: 13px;
+	float: left;
+}
+.scj>.top>.xiangzuo{
+	width: 7px;
+	height:11px;
+	background: url(../../static/img/youjiantou.png) center no-repeat;
+	background-size: cover;
+	float: right;
+	margin: 13px 13px 0 0;
+}
+/*帮助与客服*/
+.bz{
+	width: 360px;
+	height: 88px;
+	background: white;
+	margin-top: 11px;
+}
+.bz>.top{
+	width: 360px;
+	height: 38px;
+	background: white;
+}
+.bz>.top>p{
+	width: 75px;
+	height:14px;
+	font-size: 15px;
+	line-height: 14px;
+	margin-left: 13px;
+	float: left;
+}
+.bz>.top>.xiangzuo{
+	width: 7px;
+	height:11px;
+	background: url(../../static/img/youjiantou.png) center no-repeat;
+	background-size: cover;
+	float: right;
+	margin: 13px 13px 0 0;
+}
+
+

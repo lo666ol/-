@@ -1,0 +1,82 @@
+.kaishi {
+  width: 360px;
+  height: 105px;
+  background: url('../../static/img/tutu.png') center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.dlfs{
+  display: block;
+  border: 1px solid cyan;
+  width: 52px;
+  height: 52px;
+  border-radius: 53px;
+  margin: 0 auto;
+}
+.content .dlfs .mu-icon{
+  font-size: 27px;
+}
+.kaishi>.fanhui {
+  width: 19px;
+  height: 19px;
+  background: #cfd2cb;
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: 7px;
+}
+
+.kaishi>.fanhui>a>img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  padding: 2px;
+}
+
+/*登录按钮*/
+
+.xuanxiang .anniu {
+  width: 222px;
+  height: 36px;
+  background: #e63b53;
+  border-radius: 2px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+  font-size: 18px;
+  color: white;
+}
+.mu-tab-text{
+  color: black;
+}
+.xuanxiang .mu-tabs{
+  background-color: white;
+  background: url('../../static/img/mohu.jpg') no-repeat 50%;
+}
+.content section>div{
+  width: 300px;
+  height:40px;
+  margin:30px auto;
+  border-bottom: 1px solid #cfd2cb;
+}
+.content section>div input{
+  border: none;
+ margin-top:10px; 
+  outline: none;
+
+}
+.yzm{
+  width: 81px;
+    height: 39px;
+    /* border: 1px solid red; */
+    float: right;
+    line-height: 43px;
+    background: antiquewhite;
+    border-radius: 13%;
+    text-align: center;
+}
+.content section .mu-icon {
+  font-size: 14px;
+ 
+}
